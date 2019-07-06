@@ -1,0 +1,26 @@
+{
+  "vehicles": [
+	"admincar", 
+    "ds3",
+    "rmodlp750",
+	"senna",
+	"amarok",
+	"volvo850r",
+	"911turbos",
+	"rs52018",
+	"amggts2016",
+	"mgt",
+	"rs318",
+	"e63w213",
+	"bmci",
+	"16challenger"
+  ],
+  "peds": [
+    "addonpedname1",
+    "addonpedname2"
+  ],
+  "weapons": [
+    "addonweaponname1",
+    "addonweaponname2"
+  ]
+}

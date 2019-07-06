@@ -1,0 +1,280 @@
+/* Need Help? Join my discord @ discord.gg/yWddFpQ */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Lato');
+.loadbar {
+  border-radius: 25px;
+  width: 98%;
+  background-color:#ffffff15;
+  height: 27px;
+  box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 2px;
+  margin-right: 3px;
+
+  margin-top: 10px;
+  margin-bottom: 5px;
+
+  overflow: hidden;
+
+  position: relative;
+
+  text-align: center;
+  display: block;
+}
+
+.yeet {
+  width: 10%;
+  border-radius: 25px;
+  background-color: #fff41cbb;
+  height: 27px;
+
+  position: absolute;
+  left: 10%;
+}
+#player {
+  width: 350px;
+  height: 50px;
+  position: absolute;
+  margin: 0 auto;
+  top: 20px;
+  z-index: 999
+}
+#player i {
+  position: absolute;
+  margin-top: -6px;
+  color: #666;
+}
+#player i.fa-volume-down {
+  margin-left: -8px;
+}
+#player i.fa-volume-up {
+  margin-right: -8px;
+  right: 0;
+}
+
+#volume {
+  position: absolute;
+  left: 24px;
+  margin: 0 auto;
+  height: 5px;
+  width: 300px;
+  background: #555;
+  border-radius: 15px;
+}
+#volume .ui-slider-range-min {
+  height: 5px;
+  width: 300px;
+  position: absolute;
+  background: #2ecc71;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+#volume .ui-slider-handle {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background: #FFF;
+  position: absolute;
+  margin-left: -8px;
+  margin-top: -8px;
+  cursor: pointer;
+  outline: none;
+}
+
+#testarea {
+  width: 100%;
+  cursor: none;
+ }
+ 
+ .cursor {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: -100px;
+  cursor: none;
+  pointer-events: none;
+  z-index: 9999;
+ }
+
+* {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--fadeTo-Color);
+}
+
+.blur {
+    -webkit-filter: blur(var(--background-blur)) contrast(var(--background-contrast));
+    filter: blur(var(--background-blur)) contrast(var(--background-contrast));
+}
+
+.logo {
+    width: 550px;
+    width: 550px;
+	display: block;
+	text-align: center;
+	margin: auto;
+	opacity: 0.9;
+    filter: alpha(opacity=50);
+}
+
+@keyframes logoAnimation{
+  0%{ //for 0sec
+		color: $bg-color;		
+    transform: scale(1.0) 
+  }
+  50%{ 	
+    transform: scale(1.2)
+  } 
+	100%{ //for all sec
+		color: $letters;		
+    transform: scale(1)
+  } 
+}
+
+.spinner {
+  margin: 100px auto;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.spinner > div {
+  background-color: #fff;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+  
+  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+  20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes sk-stretchdelay {
+  0%, 40%, 100% { 
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% { 
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}
+
+@-webkit-keyframes sk-circleBounceDelay {
+  0%, 80%, 100% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  } 40% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes sk-circleBounceDelay {
+  0%, 80%, 100% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  } 40% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@-webkit-keyframes sk-rotate { 100% { -webkit-transform: rotate(360deg) }}
+@keyframes sk-rotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) }}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bounce {
+  0%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+
+#container {
+    text-shadow: 2px 2px 5px #424242;
+    position: absolute;
+    color: rgb(241, 235, 235);
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 75px;
+    text-align: center;
+}
+
+#bg { 
+  -webkit-background-size: cover;
+  background-size: cover;
+   }
+
+#link {
+    color: var(--footer-font-color);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    font-size: var(--footer-font-size);
+    width: 100%;
+    text-align: center;
+    padding-bottom: 29px;
+}
+
+#bottom_nav {
+    width: 90%;
+    vertical-align: text-bottom;
+    position: fixed;
+    bottom:0px;
+    text-align: center;
+    z-index:9999;
+}
+
+.ml4 {
+  position: fixed;
+  color: #fff;
+  font-weight: 900;
+  font-size: 2.5em;
+}
+.ml4 .letters {
+  position: fixed;
+  color: #fff;
+  margin: auto;
+  left: 0;
+  top: 20.5em;
+  right: 0;
+  opacity: 0; 
+  
+

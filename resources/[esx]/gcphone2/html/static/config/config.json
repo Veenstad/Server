@@ -1,0 +1,186 @@
+{
+  "reseau": "KPN NL",
+  "zoom" : "80%",
+  "themeColor": "#303f9f",
+  "colors": [
+    "#EF5350",
+    "#EC407A",
+    "#AB47BC",
+    "#7E57C2",
+    "#5C6BC0",
+    "#42A5F5",
+    "#29B6F6",
+    "#26C6DA",
+    "#26A69A",
+    "#66BB6A",
+    "#9CCC65",
+    "#D4E157",
+    "#FFCA28",
+    "#FFA726",
+    "#FF7043",
+    "#8D6E63",
+    "#78909C"
+  ],
+
+  "useFormatNumberFrance": false,
+
+  "useWebRTCVocal": true,
+  "RTCConfig": {
+    "iceServers": [{
+      "urls": ["turn:stun.l.google.com:19302"],
+      "username": "jojo",
+      "credential": "pass"
+    }]
+  },
+
+
+  "background" : {
+    "Calvin & Hobbes": "back001.jpg",
+    "Destiny": "back002.jpg",
+    "Stormtrooper": "back003.jpg",
+    "Iphone X": "iphonex.png",
+    "Oneplus": "oneplus.png",
+    "Samsung": "samsung.png",
+    "Samsung 2": "samsung2.png"
+  },
+  "background_default": {
+    "label": "Oneplus",
+    "value": "oneplus.png"
+  },
+
+
+  "coque": {
+    "Sansumg S8": "s8.png",
+    "Iphone X": "iphonex.png",
+    "Brick Base": "base.png",
+    "Oneplus 6T": "oneplus.png",
+    "Transparent": "transparent.png"
+  },
+  "coque_default": {
+    "label": "Oneplus 6T",
+    "value": "oneplus.png"
+  },
+
+
+  "serviceCall": [
+    {
+      "display": "Politie",
+      "icon": "/html/static/img/icons_app/politie.png",
+      "subMenu": [
+        {
+          "title": "Verstuur bericht",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "police"
+          }
+        }
+      ]
+    },
+    {
+      "display": "Ambulance",
+      "icon": "/html/static/img/icons_app/ambulance.png",
+      "subMenu": [
+        {
+          "title": "Verstuur bericht",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "ambulance"
+          }
+        }
+      ]
+    },
+    {
+      "display": "Reparatiebedrijf Solonik",
+      "icon": "/html/static/img/icons_app/mecano.png",
+      "subMenu": [
+        {
+          "title": "Verstuur bericht",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "mecano"
+          }
+        }
+      ]
+    },
+	{
+      "display": "Veenstad Taxicentrale",
+      "icon": "/html/static/img/icons_app/taxi.png",
+      "subMenu": [
+        {
+          "title": "Verstuur bericht",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "taxi"
+          }
+        }
+      ]
+    },
+    {
+      "display": "Journalist",
+      "icon": "/html/static/img/icons_app/absolutemotors.png",
+      "subMenu": [
+        {
+          "title": "Verstuur bericht",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "journaliste"
+          }
+        }
+      ]
+    }
+  ],
+
+  "apps": [
+    {
+      "name": "Telefoon",
+      "icons": "/html/static/img/icons_app/call.png",
+      "routeName": "appels",
+      "inHomePage": true
+    },
+    {
+      "name": "Whatsapp",
+      "icons": "/html/static/img/icons_app/sms.png",
+      "routeName": "messages",
+      "inHomePage": true,
+      "puceRef": "nbMessagesUnread"
+    },
+    {
+      "name": "Contacten",
+      "icons": "/html/static/img/icons_app/contacts.png",
+      "routeName": "contacts",
+      "inHomePage": true
+    },
+    {
+      "name": "Instellingen",
+      "icons": "/html/static/img/icons_app/settings.png",
+      "routeName": "parametre",
+      "inHomePage": true
+    },
+    {
+      "name": "Beurs",
+      "icons": "/html/static/img/icons_app/bourse.png",
+      "routeName": "bourse",
+      "enabled": true
+    },
+    {
+      "name": "Foto",
+      "icons": "/html/static/img/icons_app/photo.png",
+      "routeName": "photo"
+    },
+    {
+      "name": "Dark Chat",
+      "icons": "/html/static/img/icons_app/tchat.png",
+      "routeName": "tchat"
+    },
+    {
+      "name": "Rijksoverheid",
+      "icons": "/html/static/img/icons_app/rijksoverheid.png",
+      "routeName": "overheid"
+    },
+    {
+      "name": "Dumpert",
+      "icons": "/html/static/img/icons_app/dumpert.png",
+      "routeName": "9gag"
+    }
+  ]
+}

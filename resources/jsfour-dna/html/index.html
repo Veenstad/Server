@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="header">
+        <img src="assets/images/logo.png"/>
+        <hr />
+      </div>
+      <div id="body">
+        <div id="gradient"></div>
+        <div id="body-wrapper">
+          <div id="home">
+            <h1>Welkom!</h1>
+            <button class="btn waves-effect" id="btn-upload">Uploaden</button>
+            <button class="btn waves-effect" id="btn-match">matching</button>
+            <button class="btn waves-effect" id="btn-lab">labverslagen</button>
+            <button class="btn waves-effect" id="btn-remove">DNA verwijderen</button>
+            <div id="folders">
+              <div class="folder" id="btn-brottsplatser">
+                <i class="material-icons">folder</i>
+                <p>Misdaad ID</p>
+              </div>
+              <div class="folder" id="btn-personer">
+                <i class="material-icons">folder</i>
+                <p>personen</p>
+              </div>
+            </div>
+          </div>
+          <div id="upload">
+            <button class="btn waves-effect btn-back">terug</button>
+            <h1>Uploaden..</h1>
+            <div class="progress">
+                <div class="indeterminate"></div>
+            </div>
+            <p class="upload-success"></p>
+          </div>
+          <div id="match">
+            <button class="btn waves-effect btn-back">terug</button>
+            <h1>Match DNA</h1>
+            <p>Voer een ID in van een DNA uit een plaats delict om te zien of het overeenkomt met een bestaand DNA in onze database.</p>
+            <form>
+              <input id="match-input" placeholder="DNA ID" type="text"/>
+            </form>
+            <button class="btn waves-effect" id="btn-match-go">Test</button>
+            <p id="match-message"></p>
+          </div>
+          <div id="lab">
+            <button class="btn waves-effect btn-back">terug</button>
+            <h1>labverslagen</h1>
+            <ul>
+              
+            </ul>
+          </div>
+          <div id="database">
+            <button class="btn waves-effect btn-back">terug</button>
+            <h1>Database</h1>
+            <div id="personer">
+              <ul>
+
+              </ul>
+            </div>
+            <div id="brottsplatser">
+              <ul>
+
+              </ul>
+            </div>
+          </div>
+          <div id="remove">
+            <button class="btn waves-effect btn-back">terug</button>
+            <h1>verwijderen</h1>
+            <form>
+              <input id="remove-password" placeholder="Lösenord" type="password"/>
+              <input id="remove-id" placeholder="ID eller person" type="text"/>
+            </form>
+            <button class="btn waves-effect" id="btn-remove-go">verwijderen</button>
+            <p id="remove-message"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/jquery.js" type="text/javascript"></script>
+    <script src="assets/js/materialize.js" type="text/javascript"></script>
+    <script src="assets/js/init.js" type="text/javascript"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+spawnpoint 'a_m_y_hipster_01' { x = -531.19, y = -676.01, z = 10.81 }
+spawnpoint 'a_m_y_hipster_02' { x = -531.24, y = -669.31, z = 10.81 }
+spawnpoint 'a_m_y_hipster_01' { x = -522.29, y = -669.05, z = 10.81 }
+spawnpoint 'a_m_y_hipster_02' { x = -513.34, y = -669.33, z = 10.81 }
+spawnpoint 'a_m_y_hipster_01' { x = -496.15, y = -669.45, z = 10.81 }
+spawnpoint 'a_m_y_hipster_02' { x = -487.32, y = -669.2, z = 10.81 }
+spawnpoint 'a_m_y_hipster_01' { x = -478.28, y = -669.24, z = 10.81 }
+spawnpoint 'a_m_y_hipster_02' { x = -469.34, y = -669.15, z = 10.81 }
+spawnpoint 'a_m_y_hipster_01' { x = -469.11, y = -676.89, z = 10.81 }
+spawnpoint 'a_m_y_hipster_02' { x = -478.16, y = -677.04, z = 10.81 }
+spawnpoint 'a_m_y_hipster_01' { x = -487.2, y = -677.31, z = 10.81 }
+spawnpoint 'a_m_y_hipster_02' { x = -496.11, y = -677.16, z = 10.81 }
+spawnpoint 'a_m_y_hipster_01' { x = -513.26, y = -677.27, z = 10.81 }
+spawnpoint 'a_m_y_hipster_02' { x = -522.19, y = -677.54, z = 10.81 }

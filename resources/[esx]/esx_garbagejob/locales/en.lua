@@ -1,0 +1,36 @@
+Locales['en'] = {
+	['cloakroom']				= 'kleedkamer',
+	['job_wear']				= 'werk kleding',
+	['citizen_wear']			= 'burger kleding',
+	['vehiclespawner']			= 'kies je vuilniswagen', 
+	['already_have_van']		= 'we hebben je al een wagen gegeven!', 
+	['delivery']				= 'druk op ~INPUT_PICKUP~ om op te pakken.',
+	['not_your_van']			= 'dit is niet het wagen dat wij je hebben gegeven!',
+	['not_your_van2']			= 'je moet in de wagen zitten die wij jou hebben gegeven!',
+	['need_it']					= 'ja, maar wij hebben het nodig!',
+	['ok_work']					= 'ok, aan het werk dan !',
+	['scared_me']				= 'ok, je liet mij al schrikken !',
+	['resume_delivery']			= 'ok, ga maar door met vuilnis verzamelen dan!',
+	['not_delivery']			= 'niks verzamelen, niks verdienen',
+	['pay_repair']				= 'aan de andere kant, jij betaald voor eventuele reparaties !',
+	['repair_minus']			= 'wagen reparaties : -',
+	['shipments_plus']			= 'verzameld : +',
+	['truck_state']				= 'nee wij betalen jou echt niet, kijk eens in wat voor staat de wagen is man!',
+	['no_delivery_no_van']  	= 'niks verzameld, geen wagen! Is dit een grap?',
+	['truck_price']				= 'wagen prijs : -',
+	['meet_ls']					= 'ga naar de volgende locatie om vuilnis te verzamelen',
+	['meet_bc']					= 'ga naar de volgende locatie om vuilnis te verzamelen',
+	['meet_del']				= 'ga naar de volgende locatie om vuilnis te verzamelen',
+	['return_depot']			= 'ga terug naar het depot.',
+	['blip_job']				= 'Gemeente Veenstad afvalverwerking ', --'Garbage company',
+	['blip_delivery']			= 'Veenstad afvalverwerking  : levering', --'Garbage company : Delivery',
+	['blip_goal']				= 'Veenstad afvalverwerking  : leverpunt', --'Garbage company : Delivery point',
+	['blip_depot']				= 'Veenstad afvalverwerking  : depot', --'Garbage company : depot',
+	['cancel_mission']			= 'Druk op ~INPUT_PICKUP~ om je ronde te beëindigen',
+	['end_mission']				= 'Druk op ~INPUT_PICKUP~ om je wagen in te leveren.',
+	['end_mission_lost_truck']	= 'Druk op ~INPUT_PICKUP~ om je ronde te eindigen.',
+
+}
+
+
+
